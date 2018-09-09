@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        build(job: 'Build', quietPeriod: 8)
         echo 'Done'
       }
     }
